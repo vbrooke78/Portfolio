@@ -5,6 +5,10 @@
   background-color: whitesmoke;
 }
 
+a {
+  max-width: 50px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -29,6 +33,26 @@ h3 {
 
 li {
   list-style: none;
+}
+
+p {
+  margin: 2px;
+}
+
+.footer {
+  height: 100px;
+  background-color: white;
+  border-top: rgb(84, 83, 83) solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Patrick Hand';
+  font-size: x-large;
+}
+
+.footer-links img {
+  height: 80px;
 }
 
 .header-image {
@@ -62,8 +86,6 @@ li {
 .project-card {
   flex: 0 1 40%;
   padding: 5px 40px 20px 40px;
-  margin-bottom: 20px;
-  display: flex;
   flex-direction: column;
   border: rgb(84, 83, 83) solid 1px;
   background-color: rgb(210, 209, 209);
@@ -74,23 +96,30 @@ li {
 
 .project-card img {
   max-width: 95%;
-  margin-left: 20px;
   border: rgb(84, 83, 83) solid 1px;
 }
 
 .project-card-header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   margin-bottom: 10px;
   width: 100%;
 }
 
+.project-card-header-image {
+  justify-self: right;
+  max-width: 20%;
+  border: rgb(210, 209, 209) solid 1px;
+}
+
 .project-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
+  font-size: larger;
+  margin-bottom: 20px;
 }
 
 .project-list {
@@ -99,11 +128,13 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0px;
-  margin: 0px;
+  margin: 20px 0px;
 }
 
 .project-tech {
-  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .svg {
