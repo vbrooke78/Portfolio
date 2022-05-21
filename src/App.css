@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
+  font-family: 'Patrick Hand';
 }
 
 a {
@@ -24,7 +25,7 @@ code {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 0 0 1rem 0;
 }
 
 h3 {
@@ -37,28 +38,36 @@ li {
 
 p {
   margin: 2px;
+  font-size: larger;
 }
 
 .footer {
-  height: 100px;
+  height: 10rem;
   background-color: white;
   border-top: rgb(84, 83, 83) solid 1px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-family: 'Patrick Hand';
   font-size: x-large;
 }
 
 .footer-links img {
   height: 80px;
+  margin-left: 5rem;
+}
+
+.header {
+  align-self: flex-start;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  text-decoration: underline;
 }
 
 .header-image {
   background-image: url('./assets/thomas-tastet-hSODeSbvzE0-unsplash.jpg');
   background-color: #cccccc;
-  height: 500px;
+  height: 30rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,7 +81,6 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-family: 'Patrick Hand';
 }
 
 .header-h1 {
@@ -84,32 +92,34 @@ p {
 }
 
 .project-card {
-  flex: 0 1 40%;
+  flex: 0 1 30%;
   padding: 5px 40px 20px 40px;
   flex-direction: column;
   border: rgb(84, 83, 83) solid 1px;
   background-color: rgb(210, 209, 209);
-  margin: 1rem;
+  margin: 3rem;
   border-radius: 20px;
-  font-family: 'Patrick Hand';
 }
 
 .project-card img {
   max-width: 95%;
-  border: rgb(84, 83, 83) solid 1px;
 }
 
 .project-card-header {
   display: flex;
   flex-direction: row;
-  /* justify-content: center; */
-  margin-bottom: 10px;
+  justify-content: space-between;
   width: 100%;
+  margin-top: 1rem;
+}
+
+.project-card-header-h1 {
+  font-size: 1.5rem;
 }
 
 .project-card-header-image {
   justify-self: right;
-  max-width: 20%;
+  max-width: 15%;
   border: rgb(210, 209, 209) solid 1px;
 }
 
@@ -120,6 +130,11 @@ p {
   justify-content: flex-start;
   font-size: larger;
   margin-bottom: 20px;
+}
+
+.project-info-header {
+  text-decoration: underline;
+  margin-block-start: 0;
 }
 
 .project-list {
@@ -142,4 +157,22 @@ p {
   align-self: flex-end;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+
+.about-me-card {
+  /* flex: 0 1 40%; */
+  padding: 5px 40px 20px 40px;
+  flex-direction: column;
+  border: rgb(84, 83, 83) solid 1px;
+  background-color: rgb(210, 209, 209);
+  margin: 2rem 5rem;
+  border-radius: 20px;
+}
+
+.about-me-card h2 {
+  font-size: xx-large;
+}
+
+.about-me-card p {
+  font-size: x-large;
 }
