@@ -2,7 +2,7 @@
 
 Welcome to my portfolio.
 
-![ScreenShot] ('https://github.com/vbrooke78/Portfolio/blob/main/src/assets/portfolio_screenshot.png')
+<img width="1361" alt="Screenshot 2022-05-21 at 22 17 42" src="https://user-images.githubusercontent.com/92850830/169669781-bdf9decf-e01e-4a9c-a470-1377f9583c5a.png">
 
 # Deployed version
 
