@@ -2,7 +2,7 @@
 
 Welcome to my portfolio.
 
-![screenshot] ('https://github.com/vbrooke78/Portfolio/blob/main/src/assets/portfolio_screenshot.png')
+![ScreenShot] ('https://github.com/vbrooke78/Portfolio/blob/main/src/assets/portfolio_screenshot.png')
 
 # Deployed version
 
