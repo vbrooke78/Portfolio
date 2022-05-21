@@ -2,7 +2,7 @@
 
 Welcome to my portfolio.
 
-![screenshot] ('../portfolio/src/assets/Screenshot 2022-05-21 at 22.17.42.png')
+![screenshot] (portfolio_screenshot.png)
 
 # Deployed version
 
