@@ -41,6 +41,24 @@ p {
   font-size: larger;
 }
 
+.about-me-card {
+  flex: 1;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  border: rgb(84, 83, 83) solid 1px;
+  background-color: rgb(210, 209, 209);
+  margin: 1rem;
+  border-radius: 20px;
+}
+
+.about-me-card h2 {
+  font-size: xx-large;
+}
+
+.about-me-card p {
+  font-size: x-large;
+}
+
 .footer {
   height: 10rem;
   background-color: white;
@@ -49,25 +67,25 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: x-large;
+  font-size: larger;
 }
 
 .footer-links img {
-  height: 80px;
-  margin-left: 5rem;
+  height: 3rem;
+  margin-left: 1.5rem;
 }
 
 .header {
   align-self: flex-start;
-  margin-left: 5rem;
-  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
   text-decoration: underline;
 }
 
 .header-image {
   background-image: url('./assets/thomas-tastet-hSODeSbvzE0-unsplash.jpg');
   background-color: #cccccc;
-  height: 30rem;
+  height: 20rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,20 +102,21 @@ p {
 }
 
 .header-h1 {
-  font-size: 4rem;
-}
-
-.header-h2 {
+  margin-top: 3rem;
   font-size: 3rem;
 }
 
+.header-h2 {
+  font-size: 2rem;
+}
+
 .project-card {
-  flex: 0 1 30%;
-  padding: 5px 40px 20px 40px;
+  flex: 1 80%;
+  padding: 1rem 2rem;
   flex-direction: column;
   border: rgb(84, 83, 83) solid 1px;
   background-color: rgb(210, 209, 209);
-  margin: 3rem;
+  margin: 1rem;
   border-radius: 20px;
 }
 
@@ -159,20 +178,157 @@ p {
   margin-bottom: 10px;
 }
 
-.about-me-card {
-  /* flex: 0 1 40%; */
-  padding: 5px 40px 20px 40px;
-  flex-direction: column;
-  border: rgb(84, 83, 83) solid 1px;
-  background-color: rgb(210, 209, 209);
-  margin: 2rem 5rem;
-  border-radius: 20px;
-}
+@media only screen and (min-width: 900px) {
+  h1 {
+    margin: 0 0 1rem 0;
+  }
 
-.about-me-card h2 {
-  font-size: xx-large;
-}
+  h3 {
+    margin-top: 0;
+  }
 
-.about-me-card p {
-  font-size: x-large;
+  li {
+    list-style: none;
+  }
+
+  p {
+    margin: 2px;
+    font-size: larger;
+  }
+
+  .about-me-card {
+    /* flex: 0 1 40%; */
+    padding: 5px 40px 20px 40px;
+    flex-direction: column;
+    border: rgb(84, 83, 83) solid 1px;
+    background-color: rgb(210, 209, 209);
+    margin: 2rem 5rem;
+    border-radius: 20px;
+  }
+
+  .about-me-card h2 {
+    font-size: xx-large;
+  }
+
+  .about-me-card p {
+    font-size: x-large;
+  }
+
+  .footer {
+    height: 10rem;
+    background-color: white;
+    border-top: rgb(84, 83, 83) solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+  }
+
+  .footer-links img {
+    height: 80px;
+    margin-left: 5rem;
+  }
+
+  .header {
+    align-self: flex-start;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    text-decoration: underline;
+  }
+
+  .header-image {
+    background-image: url('./assets/thomas-tastet-hSODeSbvzE0-unsplash.jpg');
+    background-color: #cccccc;
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .header-h1 {
+    font-size: 4rem;
+  }
+
+  .header-h2 {
+    font-size: 3rem;
+  }
+
+  .project-card {
+    flex: 0 1 30%;
+    padding: 5px 40px 20px 40px;
+    flex-direction: column;
+    border: rgb(84, 83, 83) solid 1px;
+    background-color: rgb(210, 209, 209);
+    margin: 3rem;
+    border-radius: 20px;
+  }
+
+  .project-card img {
+    max-width: 95%;
+  }
+
+  .project-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .project-card-header-h1 {
+    font-size: 1.5rem;
+  }
+
+  .project-card-header-image {
+    justify-self: right;
+    max-width: 15%;
+    border: rgb(210, 209, 209) solid 1px;
+  }
+
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: larger;
+    margin-bottom: 20px;
+  }
+
+  .project-info-header {
+    text-decoration: underline;
+    margin-block-start: 0;
+  }
+
+  .project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 20px 0px;
+  }
+
+  .project-tech {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .svg {
+    max-width: 10%;
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
 }
