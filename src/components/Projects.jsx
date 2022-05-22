@@ -35,7 +35,9 @@ const Projects = () => {
                 </section>
               </div>
               <div className="project-img">
-                <img alt="screenshot" src={project.image} />
+                <a href={project.hostedLink} target="_blank">
+                  <img alt="screenshot" src={project.image} />
+                </a>
               </div>
             </li>
           );
