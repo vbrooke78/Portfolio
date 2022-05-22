@@ -26,7 +26,7 @@ const project_data = [
       'jest',
     ],
     image: require('../assets/Odd_Jobs_screenshot.png'),
-    github: 'https://github.com/vbrooke78/be-nc-news',
+    github: 'https://github.com/akin-fagbohun/OddJobs-Frontend',
   },
 ];
 

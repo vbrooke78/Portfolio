@@ -1,5 +1,4 @@
 import project_data from '../utils/project_data';
-import { ReactComponent as YourSVG } from '../assets/github.svg';
 
 const Projects = () => {
   return (
