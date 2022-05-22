@@ -29,7 +29,7 @@ const project_data = [
     ],
     image: require('../assets/Odd_Jobs_screenshot.png'),
     github: 'https://github.com/akin-fagbohun/OddJobs-Frontend',
-    hostedLink: 'https://expo.dev/@vbrooke/OddJobs-Frontend',
+    hostedLink: 'https://github.com/akin-fagbohun/OddJobs-Frontend',
   },
 ];
 
